@@ -6,11 +6,9 @@ class Mkdotenv < Formula
   
   url "https://github.com/pc-magas/mkdotenv/releases/download/v#{version}/mkdotenv-macos.zip"
   
-  sha256 "14a6412f8a8e1d2d402d543a9523df4c8b4edca1a7c4f6119920538dba90d3b8"
+  sha256 "5241ce898a9e29abf93e267eb1eb76e997c6a8af45ceefd3bb4f03cf848bd898"
   
   license "GPL-3.0-or-later"
-
-  # Comment in order to force a commit.
 
   def install
     bin.install "mkdotenv"
