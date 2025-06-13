@@ -11,8 +11,11 @@ jobs:
     runs-on: macos-latest
     steps:
 
-      - name: install_whitout_formula
+      - name: Add tap
         run: brew tap pc-magas/mkdotenv
-      
+
+      - name: install mkdotenv
+        run: brew install mkdotenv
+
       - name: testrun
         run: mkdotenv --help
