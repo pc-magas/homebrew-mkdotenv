@@ -1,0 +1,18 @@
+name: test_install
+
+on:
+  push:
+    branches:
+      - master
+        
+jobs:
+
+  test_install:
+    runs-on: macos-latest
+    steps:
+
+      - name: install_whitout_formula
+        run: brew tap pcmagas/mkdotenv
+      
+      - name: testrun
+        run: mkdotenv --help
