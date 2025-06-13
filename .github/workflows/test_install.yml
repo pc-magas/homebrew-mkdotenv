@@ -15,7 +15,7 @@ jobs:
         run: brew tap pc-magas/mkdotenv
 
       - name: install mkdotenv
-        run: brew install mkdotenv
+        run: brew install pc-magas/mkdotenv/formula
 
       - name: testrun
         run: mkdotenv --help
