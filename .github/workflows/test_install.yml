@@ -12,7 +12,7 @@ jobs:
     steps:
 
       - name: install_whitout_formula
-        run: brew tap pcmagas/mkdotenv
+        run: brew tap pc-magas/mkdotenv
       
       - name: testrun
         run: mkdotenv --help
