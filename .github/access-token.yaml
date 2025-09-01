@@ -1,0 +1,5 @@
+allowed-identities:
+  - repo: pc-magas/mkdotenv
+    permissions:
+      contents: write
+      pull_requests: write
