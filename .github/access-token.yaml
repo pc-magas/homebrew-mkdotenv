@@ -1,15 +1,4 @@
 origin: pc-magas/homebrew-mkdotenv
-
-# Optional: limit which subjects can request tokens
-allowed-subjects:
-  - repo:pc-magas/mkdotenv:** # allow all refs/workflows/environments from mkdotenv repo
-
-# Optional: allow mkdotenv to manage these permissions itself via workflows
-allowed-repository-permissions:
-  contents: write
-  pull-requests: write
-
-# Explicitly grant permissions to mkdotenv workflows
 statements:
   - subjects:
       - repo:pc-magas/mkdotenv:** # all refs, workflows, environments
