@@ -1,33 +1,5 @@
 allowed-identities:
-  - repo: pc-magas/mkdotenv
-    permissions:
-      contents: write
-      pull_requests: write
-
-  - repo: pc-magas/mkdotenv:ref:refs/heads/dev
-    permissions:
-      contents: write
-      pull_requests: write
-
-  - repo: pc-magas/mkdotenv:workflow_ref:pc-magas/mkdotenv/.github/workflows/release.yml@refs/heads/dev
-    permissions:
-      contents: write
-      pull_requests: write
-
-  - repo: pc-magas/mkdotenv:job_workflow_ref:pc-magas/mkdotenv/.github/workflows/release.yml@refs/heads/dev
-    permissions:
-      contents: write
-      pull_requests: write
-      
-  - repo: pc-magas/mkdotenv:ref:refs/heads/master
-    permissions:
-      contents: write
-      pull_requests: write
-  - repo: pc-magas/mkdotenv:workflow_ref:pc-magas/mkdotenv/.github/workflows/release.yml@refs/heads/master
-    permissions:
-      contents: write
-      pull_requests: write
-  - repo: pc-magas/mkdotenv:job_workflow_ref:pc-magas/mkdotenv/.github/workflows/release.yml@refs/heads/master
+  - repo: pc-magas/mkdotenv*
     permissions:
       contents: write
       pull_requests: write
