@@ -1,12 +1,12 @@
 class Mkdotenv < Formula
-  version "0.4.9"
+  version "1.0.0-pre"
   desc "Simplify Your .env Files – One Variable at a Time!"
 
   homepage "https://github.com/pc-magas/mkdotenv"
   
   url "https://github.com/pc-magas/mkdotenv/releases/download/v#{version}/mkdotenv-macos.zip"
   
-  sha256 "e0e2774bb8c9dbb6e601017aa6f6a2024c3b265793d7730f5be5fe236b64ba12"
+  sha256 "e158b8431757fce188301a37939873c5ea07722196d3bb9b83ba1de5067730dd"
   
   license "GPL-3.0-or-later"
 
